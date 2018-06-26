@@ -4,7 +4,7 @@
 
 **This repo shows how I translated Manifold’s business objectives into an actionable deliverable.**
 
-### Note: Detailed Blog Post about my project is located [here]() on my personal website.
+### ***Note: Detailed Blog Post about my project is located [here]() on my personal website.***
 
 ## Project Summary
 As an Insight Data Science Fellow, I consulted with Manifold for a two-week project using machine learning to model and predict network usage. Manifold is a company that offers startups and new developers a simple yet revolutionary platform to manage their applications and cloud resources in one place. Manifold also serves as a marketplace for additional applications and services, as well as an easy way to work with multiple APIs in one location. 
