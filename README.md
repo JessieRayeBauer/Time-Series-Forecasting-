@@ -29,13 +29,13 @@ Next, I implemented DeepAR, a recently developed built-in algorithm from Amazon 
 
 1. [Manifold_TimeSeries_Models.py](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/Manifold_TimeSeries_Models.py.ipynb): - Modeling 500 time series using sklearn. Techniques include feature engineering, rolling window averages (smoothing), linear regression, scaled regression, and lasso, and ridge regression to perform feature selection and reduce overfitting.
 
-2. [Manifold_AWS_DeepAR.py](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/Manifold_AWS_DeepAR.py.ipynb)  =  AWS Jupyter notebook for Sagemaker DeepAR
+2. [Manifold_AWS_DeepAR.py](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/Manifold_AWS_DeepAR.py.ipynb): AWS Jupyter notebook for Sagemaker DeepAR. Includes code to download and read in data, format into JSON strings, push to S3 bucket, create train a recurrent neural network (RNN), and visualize model predictions. 
 
 3. [Manifold_Visualize_Initial_Explore.py.ipynb](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/Manifold_Visualize_Initial_Explore.py.ipynb): - Includes some initial visualizations of data (aggregated and resampled hourly) using python and matplotlb.
 
 4. [Timeseries_FirstLook_1month.py.ipynb](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/Timeseries_FirstLook_1month.py.ipynb) - Contains code for exploring timeseries from 1 month and 100 VMs. Includes initial models using ARIMA, SARIMAX, Holt-Winters (smoothing), some visualizations, and stationarity tests.
 
-5. [HyperparameterTuning_DeepAR_Example.ipynb](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/HyperparameterTuning_DeepAR_Example.ipynb)- Example code for hyperparameter tuning request in AWS sagemaker. 
+5. [HyperparameterTuning_DeepAR_Example.ipynb](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/HyperparameterTuning_DeepAR_Example.ipynb): Example code for hyperparameter tuning request in AWS sagemaker. 
 
 
 
