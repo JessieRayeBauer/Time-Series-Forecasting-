@@ -1,7 +1,8 @@
 # Modeling System Resource Usage for Predictive Scheduling 
 
-## Consulting Project with [Manifold.co](Manifold.co)
-## This repo shows how I translated Manifold’s business objectives into an actionable deliverable.
+**Consulting Project with [Manifold.co](Manifold.co)**
+
+**This repo shows how I translated Manifold’s business objectives into an actionable deliverable.**
 
 ### Note: Detailed Blog Post about my project is located [here]() on my personal website.
 
@@ -16,15 +17,15 @@ First, I used time series analysis, regression techniques, and time series cross
 
 Next, I implemented DeepAR, a recently developed built-in algorithm from Amazon Sagemaker (hosted on AWS) to address Manifold’s request to move towards real-time analytics. Amazon SageMaker DeepAR is a supervised learning algorithm used to forecast time series using recurrent neural networks (RNN). 
 
-**Overview of my analysis pipeline:
+## Overview of my analysis pipeline:
 
 ![analysis_pipeline](images/analysispipelinesummarydetailed.png)
 
-**Summary of the deliverables I provided to Manifold:
+## Summary of the deliverables I provided to Manifold:
 
 ![summary_deliverables](images/summary_deliverables.png)
 
-**Notebook Organization**
+## Notebook Organization
 
 1. [Manifold_TimeSeries_Models.py](https://github.com/JessieRayeBauer/Time-Series-Forecasting-/blob/master/Manifold_TimeSeries_Models.py.ipynb): - Modeling 500 time series using sklearn. Techniques include feature engineering, rolling window averages (smoothing), linear regression, scaled regression, and lasso, and ridge regression to perform feature selection and reduce overfitting.
 
@@ -38,7 +39,7 @@ Next, I implemented DeepAR, a recently developed built-in algorithm from Amazon 
 
 
 
-**Helpful Resources:**
+## Helpful Resources
 
 1. Data publically available from The Grid Workloads Archive ([Bit Brains](http://gwa.ewi.tudelft.nl/datasets/gwa-t-12-bitbrains)- I used the rnd traces)
 
