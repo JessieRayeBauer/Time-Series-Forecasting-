@@ -2,6 +2,9 @@
 
 Consulting Project with Manifold.co
 
+
+Notebooks
+
 1. Manifold_Sagemaker_min_dat.py.ipynb  =  AWS notebook for Sagemaker DeepAR, copied over
 
 2. Manifold_6_17_Moredata.py.ipynb - Added more data: 3 months of data from 100 VMs, additional analysis and exploration
@@ -11,7 +14,7 @@ Consulting Project with Manifold.co
 4. Manifold_6_13_CLEAN_SUMMED.py.ipynb - initial models with 100 VMs from 8-2013
 
 
-Resources:
+Helpful Resources:
 
 1. Data from The Grid Workloads Datasets ([Bit Brains](http://gwa.ewi.tudelft.nl/datasets/gwa-t-12-bitbrains) rnd files)
 
