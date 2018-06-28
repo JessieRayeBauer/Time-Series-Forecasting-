@@ -1,6 +1,7 @@
 # Modeling System Resource Usage for Predictive Scheduling
 ### A machine learning-based solution for real-time resource allocation in the cloud
 **Consulting Project with [Manifold.co](Manifold.co)**
+
 **Accompanying Blog Post on my website [here](https://jessierayebauer.wixsite.com/jrbauer/single-post/2018/06/26/Modeling-System-Resource-Usage-for-Predictive-Scheduling)**
 
 **This repo shows how I translated Manifold’s business objectives into an actionable deliverable.**
