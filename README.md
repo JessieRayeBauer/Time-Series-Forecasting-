@@ -18,7 +18,7 @@ Next, I implemented DeepAR, a recently developed built-in algorithm from Amazon 
 
 ## Overview of my analysis pipeline:
 
-![analysis_pipeline](images/analysispipelinesummarydetailed.png)
+![analysis_pipeline](images/analysis_detailed_summary.png)
 
 ## Summary of the deliverables I provided to Manifold:
 
