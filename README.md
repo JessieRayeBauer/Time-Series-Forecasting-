@@ -6,15 +6,15 @@
 ![manifold_brand](images/manifold.png)
 
 ## Project Summary
-As an Insight Data Science Fellow, I consulted with Manifold for a two-week project using machine learning to model and predict network usage. Manifold is a company that offers startups and new developers a simple yet revolutionary platform to manage their applications and cloud resources in one place. Manifold also serves as a marketplace for additional applications and services, as well as an easy way to work with multiple APIs in one location. 
+As an Insight Data Science Fellow, I consulted with Manifold for a project using machine learning and neural networks to model and predict network usage. Manifold is a company that offers startups and new developers a simple yet revolutionary platform to manage their applications and cloud resources in one place. Manifold also serves as a marketplace for additional applications and services, as well as an easy way to work with multiple APIs in one location.
 
-As a consultant, I wanted to get a sense of Manifold’s needs to help them reach their goal. Manifold was interested in gaining a sense of their current network resource usage and provisioning. In addition, Manifold wanted to move towards a machine learning approach to make real-time usage predictions and automate scheduling of provisions. This is especially important because they were spending valuable hours manually setting limits, at a continuously high resource limit to minimize downtime (i.e., system crashing). Historically, companies like Manifold overprovision resources to avoid server downtime, which can be wasteful. This was even evidenced in the [publicly available dataset](http://gwa.ewi.tudelft.nl/datasets/gwa-t-12-bitbrains) I used for my data analysis, because of an NDA agreement. Therefore, my role as a consultant was to develop a model that would provide a more intelligent prediction of network usage.  
+As a consultant, I wanted to get a sense of Manifold’s needs to help them reach their goals. Manifold was interested in gaining a sense of their current network resource usage and provisioning. In addition, Manifold wanted to move towards a machine learning approach to make real-time usage predictions and automate scheduling of provisions. This is especially important because they were spending valuable hours manually setting limits, at a continuously high resource limit to minimize downtime (i.e., system crashing). Historically, companies like manifold have to balance the competing needs of minimizing cost of paying for CPU bandwidth, for example, but also minimizing downtime by slightly over provisioning. This was even evidenced in the [publicly available dataset](http://gwa.ewi.tudelft.nl/datasets/gwa-t-12-bitbrains) I used for my data analysis, because of an NDA agreement. Therefore, my role as a consultant was to develop a model that will provide a more intelligent prediction of network usage.
 
-In order to reach Manifold's goals, I took a two-fold approach. 
+Here is how I translated Manifold’s business objectives into an actionable deliverable.
 
-First, I used time series analysis, regression techniques, and time series cross-validation in Python (using sklearn) to characterize network usage as well as identify important predictive features. 
+First, I used time-series analysis, advanced regression techniques, and time series cross-validation in Python (using sklearn) to characterize network usage as well as identify important predictive features.
 
-Next, I implemented DeepAR, a recently developed built-in algorithm from Amazon Sagemaker (hosted on AWS) to address Manifold’s request to move towards real-time analytics. Amazon SageMaker DeepAR is a supervised learning algorithm used to forecast time series using recurrent neural networks (RNN). 
+Next, I implemented DeepAR, a recently developed built-in algorithm from Amazon Sagemaker (hosted on AWS) to help Manifold shift towards real-time analytics. Amazon SageMaker DeepAR is a supervised learning algorithm used to forecast time series using recurrent neural networks (RNN). 
 
 ## Overview of my analysis pipeline:
 
