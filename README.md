@@ -1,5 +1,5 @@
 # Modeling System Resource Usage for Predictive Scheduling
-A machine learning-based solution for real-time resource allocation in the cloud
+### A machine learning-based solution for real-time resource allocation in the cloud
 **Consulting Project with [Manifold.co](Manifold.co)**
 
 **This repo shows how I translated Manifold’s business objectives into an actionable deliverable.**
